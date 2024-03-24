@@ -40,7 +40,6 @@
           cu angajament activ.
         </p>
       </li>
-      <br />
     </ul>
 
     <hr />
