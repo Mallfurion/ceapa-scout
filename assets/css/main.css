@@ -1,0 +1,55 @@
+body {
+  font-family: 'Montserrat';
+  color: #000032;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+br {
+  margin-bottom: 1rem;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+  @apply px-2 py-4 md:px-4 md:py-8 lg:p-12 xl:px-20 xl:py-16;
+}
+
+.calendar {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.main-wrapper {
+  margin: auto;
+}
