@@ -5,7 +5,10 @@
       <h3>Clujeni Entuziasmați Adesea Plecați Aiurea</h3>
     </div> -->
     <!-- Nav -->
-    <UHorizontalNavigation :links="links" class="justify-center" />
+    <div class="flex">
+      <UHorizontalNavigation :links="links" class="justify-center" />
+      <DarkModeSwitch />
+    </div>
     <!-- Content -->
     <main class="content">
       <slot />

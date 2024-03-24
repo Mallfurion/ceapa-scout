@@ -2,8 +2,12 @@
 
 body {
   font-family: 'Montserrat';
+}
+
+html.light body {
   color: #000032;
 }
+
 h1,
 h2,
 h3,
